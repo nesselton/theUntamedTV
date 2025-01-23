@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'Crowned';
+    src: url('fonts/Crowned.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#navvv {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1030; /* Ensures it stays above other elements */
+}
+
+.holder {
+    width: 1100px;
+    height: auto;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-y: scroll;
+}
+
+.container {
+    position: relative;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+#profile{
+    width: 1000px;
+    height: 690px;
+    display: grid;
+    grid-template-columns: 30% 3% 67%;
+    grid-template-rows: 20% 20% 54% 6%;
+    column-gap: 20px;
+    row-gap: 5px;
+}
+
+#about{
+    height: auto;
+    padding: 50px;
+}
+
+.circle {
+    height: 220px;
+    width: 220px;
+    border-radius: 60%;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 55px;
+    left: 225px;
+    overflow: hidden;
+    border: solid 2px #edeae5;
+  }
+
+  .spacer {
+    height: 100px;
+    width: 100px;
+    border-radius: 60%;
+    background-size: cover;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+  }
+
+.item {
+    overflow: hidden;
+    border-radius: 50px;
+}
+
+#item1 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: none;
+    box-sizing: border-box;
+    padding: 30px;
+    margin-top: 40px;
+}
+
+#item1 h1 {
+    font-size: 70px;
+    font-family: 'Crowned', sans-serif; /* Fallback to sans-serif */
+}
+
+#item2 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row: 3;
+    box-sizing: border-box;
+    padding: 40px;
+}
+
+#item3 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background-size: cover;
+    background-position: center;
+}

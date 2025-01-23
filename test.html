@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="nessel <3">
+    <title>DCT JAEJIN</title>
+    <link rel="stylesheet" href="style.css"> <!--hier wird in styles.css verlinkt-->
+</head>
+
+<body>
+    <!-- BOOTSTRAP INCLUSION -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <!-- NAV BAR -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="https://stickershop.line-scdn.net/stickershop/v1/product/25718/LINEStorePC/main.png?v=1"
+                    width="45" height="45">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            IDOLS AND TRAINEES
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">takada ryuuji</a></li>
+                            <li><a class="dropdown-item" href="#">ji hyojun</a></li>
+                            <li><a class="dropdown-item" href="#">han jungho</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            CITIZENS
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">choi yongjin</a></li>
+                            <li><a class="dropdown-item" href="#">kim jaejin</a></li>
+                            <li><a class="dropdown-item" href="kenta.html">yamazaki kenta</a></li>
+                            <li><a class="dropdown-item" href="#">kang myunghwa</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            NPC
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">hae minseok</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Favourite Contacts</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="contact_container">
+                        <div class="contact_person">
+                            <div class="contact_picture">
+                                <img src="https://i.pinimg.com/564x/39/e4/65/39e46560ba5f2179f5992cbd9c1b200c.jpg">
+                            </div>
+                            <div class="contact_name">
+                                <span id="deactivated"><b>yeobo</b></span><br><i>kang yuju</i>
+                            </div>
+                        </div>
+                        <div class="contact_person">
+                            <div class="contact_picture">
+                                <img src="https://i.pinimg.com/564x/f8/ec/7c/f8ec7c5dcc9dad8332c220fd9a8ce0dc.jpg">
+                            </div>
+                            <div class="contact_name">
+                                <b>ujin hyung</b><br><i>kim ujin</i>
+                            </div>
+                        </div>
+
+                        <div class="contact_person">
+                            <div class="contact_picture">
+                                <img src="https://i.pinimg.com/564x/e4/09/7f/e4097fdf16681c3315a2af10ef4fdeac.jpg">
+                            </div>
+                            <div class="contact_name">
+                                <b>faye</b><br><i>faye kim</i>
+                            </div>
+                        </div>
+                        <div class="contact_person">
+                            <div class="contact_picture">
+                                <img src="https://i.pinimg.com/564x/31/c9/59/31c959afd378b85816e8d990f138814f.jpg">
+                            </div>
+                            <div class="contact_name">
+                                <b>haewon noona</b><br><I>yoon haewon</i>
+                            </div>
+                        </div>
+
+                        <div class="contact_person">
+                            <div class="contact_picture">
+                                <img src="https://i.pinimg.com/564x/82/a7/9e/82a79eda71b81044376ab4a14c7374f8.jpg">
+                            </div>
+                            <div class="contact_name">
+                                <b>big brother</b><br><I>park (jennie's dad)</i>
+                            </div>
+                        </div>
+
+                        <div class="contact_person">
+                            <div class="contact_picture">
+                                <img src="https://i.pinimg.com/564x/21/38/f9/2138f983c4b10008876bc03496910047.jpg">
+                            </div>
+                            <div class="contact_name">
+                                <b>little jennie</b><br><i>jennie park</i>
+                            </div>
+                        </div>
+
+                        <div class="contact_person">
+                            <div class="contact_picture">
+                                <img src="https://i.pinimg.com/564x/1d/6d/71/1d6d715eed8403ebedc813da277a55a9.jpg">
+                            </div>
+                            <div class="contact_name">
+                                <b><s>sooae-yah</s></b><br><i>heo sooae</i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- PROFILE -->
+    <div class="container" id="profile">
+        <div class="item" id="item1">
+            <center>
+                <h1>KIM JAEJIN</h1>
+                <h3>played by</h3>
+                <h1>KIM JAEJIN</h1>
+            </center>
+        </div>
+        <div class="item" id="item2">some children are born with tragedy in their blood</div>
+        <div class="item" id="item3">
+            <img src="https://i.pinimg.com/564x/0e/83/0e/0e830e8a0195784e6db9e64ed381a00f.jpg" width="350px">
+        </div>
+        <div class="circle"
+            style="background-image: url('https://64.media.tumblr.com/9d057dedb8d92d3b0372471865b6f2b7/1dfc2db3eed36b29-e0/s540x810/92cf4ca47a0b2a1ecff5bf4c0c6c4c197590a69e.gif')">
+        </div>
+    </div>
+
+</body>
+
+</html>
