@@ -4,12 +4,19 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'Brusher';
+    src: url('fonts/Brush King.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 #navvv {
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 1030; /* Ensures it stays above other elements */
+    z-index: 1030;
+    /* Ensures it stays above other elements */
 }
 
 .holder {
@@ -28,7 +35,7 @@
     padding: 15px;
 }
 
-#profile{
+#profile {
     width: 1000px;
     height: 690px;
     display: grid;
@@ -38,7 +45,7 @@
     row-gap: 5px;
 }
 
-#about{
+#about {
     height: auto;
     padding: 50px;
 }
@@ -54,9 +61,9 @@
     left: 225px;
     overflow: hidden;
     border: solid 2px #edeae5;
-  }
+}
 
-  .spacer {
+.spacer {
     height: 100px;
     width: 100px;
     border-radius: 60%;
@@ -65,7 +72,16 @@
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
-  }
+}
+
+#sectTitle {
+    margin-top: 150px;
+    margin-bottom: 25px;
+    font-size: 45px;
+    font-family: 'Brusher', sans-serif;
+    text-align: center;
+    /* Fallback to sans-serif */
+}
 
 .item {
     overflow: hidden;
@@ -85,7 +101,8 @@
 
 #item1 h1 {
     font-size: 70px;
-    font-family: 'Crowned', sans-serif; /* Fallback to sans-serif */
+    font-family: 'Crowned', sans-serif;
+    /* Fallback to sans-serif */
 }
 
 #item2 {
