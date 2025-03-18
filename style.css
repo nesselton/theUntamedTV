@@ -67,12 +67,23 @@
 
 #about {
     height: auto;
-    padding: 50px;
+    padding: 40px 55px 20px 55px;
 }
 
-#about h2 {
-    padding-top: 20px;
+#about h2, #about h5 {
+    padding-top: 15px;
 }
+
+#about p {
+    padding-bottom: 7px;
+}
+
+#about a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #ba0f30;
+}
+
 
 .circle {
     height: 220px;
