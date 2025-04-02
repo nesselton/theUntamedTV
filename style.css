@@ -11,6 +11,23 @@
     font-style: normal;
 }
 
+body {
+    background: url('https://i.ibb.co/kV8QT6xT/TUNT4.jpg') no-repeat fixed;
+    background-size: cover;
+    background-position: center top;
+}
+
+.fancy_graphics {
+    width: 700px;
+    height: 425px;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    box-shadow: 0px 0px 1px 1px var(--bs-gray-300);
+}
+
 #navvv {
     position: fixed;
     top: 0;
@@ -27,6 +44,7 @@
     margin-left: auto;
     margin-right: auto;
     overflow-y: scroll;
+    background-color: var(--bs-body-bg);
 }
 
 .container {
